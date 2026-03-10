@@ -8,8 +8,9 @@ try
     int b = int.Parse(Console.ReadLine());
     Console.WriteLine($"Numbers entered: {a}, {b}");
 
-    int sum = StatisticsHelper.Sum(a, b);
-    Console.WriteLine($"Sum: {sum}");
+    int[] numbers = { a, b };
+    double avg = StatisticsHelper.CalculateAverage(numbers);
+    Console.WriteLine($"Average: {avg}");
 }
 catch
 {
