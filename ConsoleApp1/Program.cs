@@ -7,7 +7,9 @@ try
     int a = int.Parse(Console.ReadLine());
     Console.WriteLine("Enter second number (integer):");
     int b = int.Parse(Console.ReadLine());
-    Console.WriteLine($"Input values: {a} | {b}");
+
+    Console.WriteLine($"You entered numbers {a} and {b}");
+
 
     int[] numbers = { a, b };
     double avg = StatisticsHelper.CalculateAverage(numbers);
