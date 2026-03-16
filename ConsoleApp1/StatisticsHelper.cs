@@ -33,7 +33,14 @@
     }
     public static int CalculateMin(int[] values)
     {
-        // TODO: implement
-        return 0;
+        int min = values[0];
+
+        foreach (var v in values)
+        {
+            if (v < min)
+                min = v;
+        }
+
+        return min;
     }
 }
