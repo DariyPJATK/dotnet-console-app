@@ -4,7 +4,7 @@ try
 {
     Console.WriteLine("Enter first number:");
     int a = int.Parse(Console.ReadLine());
-    Console.WriteLine("Enter second number:");
+    Console.WriteLine("Enter second number (integer):");
     int b = int.Parse(Console.ReadLine());
     Console.WriteLine($"Numbers entered: {a}, {b}");
 
