@@ -22,7 +22,7 @@
     public static int CalculateMax(int[] values)
     {
         if (values == null || values.Length == 0)
-            throw new ArgumentException("values must contain at least one element");
+            return 0;
 
         int max = values[0];
         foreach (var v in values)
