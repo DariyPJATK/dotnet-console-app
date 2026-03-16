@@ -19,4 +19,16 @@
 
         return (double)sum / values.Length;
     }
+    public static int CalculateMax(int[] values)
+    {
+        if (values == null || values.Length == 0)
+            throw new ArgumentException("values must contain at least one element");
+
+        int max = values[0];
+        foreach (var v in values)
+        {
+            if (v > max) max = v;
+        }
+        return max;
+    }
 }
