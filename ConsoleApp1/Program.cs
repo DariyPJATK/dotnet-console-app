@@ -2,6 +2,7 @@
 
 try
 {
+    Console.WriteLine("Simple statistics console application");
     Console.WriteLine("Enter first number:");
     int a = int.Parse(Console.ReadLine());
     Console.WriteLine("Enter second number (integer):");
