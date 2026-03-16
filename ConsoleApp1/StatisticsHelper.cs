@@ -31,4 +31,9 @@
         }
         return max;
     }
+    public static int CalculateMin(int[] values)
+    {
+        // TODO: implement
+        return 0;
+    }
 }
