@@ -3,7 +3,7 @@ Git performs fast-forward merge whenthe target branch has not received any new c
 
 A merge commit is created when both branches have new commits. Because the histories diverged Git must create a new commit that combines the two histories.
 
-Example from this repository:  
+## Example from this repository:  
 The `feature-max" branch was created from `main`, but before merging it, an additional commit was added directly to `main`. Because `main` moved forward, Git created a merge commitinstead of performing a fast-forward.
 --
 ## 2. What is the practical difference between merge and rebase?
